@@ -65,3 +65,11 @@ body {
 .error {
     color: #ff4136; /* Red */
 }
+
+.stop-button {
+  background-color: #ff4136; /* Red */
+}
+
+.stop-button:hover {
+  background-color: #e60000;
+}
