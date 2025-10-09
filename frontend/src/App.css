@@ -1,0 +1,67 @@
+/* src/App.css */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+}
+
+.sos-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ff4136; /* Red */
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    box-shadow: 0 8px 15px rgba(255, 65, 54, 0.4);
+}
+
+.sos-button:hover {
+    background-color: #e60000;
+}
+
+.sos-button:active {
+    transform: scale(0.95);
+}
+
+.sos-button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.status-message {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    height: 30px; /* Reserve space to prevent layout shift */
+}
+
+.success {
+    color: #2ecc40; /* Green */
+}
+
+.error {
+    color: #ff4136; /* Red */
+}
