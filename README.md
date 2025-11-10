@@ -7,9 +7,8 @@ This project is a group collaboration by:
 - **Adarsh Beriwala**  
 - **Piyush Singhal**
 
-## 🎬 Project Demo
+## 🎥 Project Demo
 
 <p align="center">
-  <video src="https://github.com/singhalpiyush17/project-v1/blob/main/project_demo.mp4?raw=true" width="600" controls>
-  </video>
+  <video src="https://github.com/singhalpiyush17/project-v1/raw/refs/heads/master/project_demo.mp4" controls width="700"></video>
 </p>
